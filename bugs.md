@@ -1,0 +1,6 @@
+- BUG #1: function authUser : User and admin is the same
+- BUG #2: no result.rows[0] - it will always lead to undefind.
+- BUG #3: it will never throw an error because user would always be truthy. Also it won't throw a error because there is no "throw" in front of the expresserror.
+- BUG #4: Can not get access since it require both user and admin
+- BUG #5: Added a can't change username. As they shouldn't beable to change username.
+- BUG #6: same as bug 2 and 3
